@@ -6,7 +6,8 @@ the package is in transit, each time an update is made the customer gets a notif
 email with a link to view the status of there parcel or package.
 
 # Prerequisites
-Nothing much at the moment apart from django
+Nothing much at the moment apart from django, posibilities for there to be
+more later.
 
 # Installing
 Create a virtulenv and run the requirements.txt
@@ -16,4 +17,4 @@ More than happy for developers of any level to contribute, just fork, create a
 branch and push up for me to view.
 
 # License
-This project is licensed under the MIT License 
+This project is licensed under the MIT License
