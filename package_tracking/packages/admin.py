@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Package, TransitStage
+from .models import Package, Stage
 
 admin.site.register(Package)
-admin.site.register(TransitStage)
+admin.site.register(Stage)
