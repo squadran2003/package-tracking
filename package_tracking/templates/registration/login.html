@@ -1,21 +1,15 @@
 {% extends 'layout.html' %}
 {% load bootstrap3 %}
 {% block title %}{{ block.super }}| login{% endblock %}
-{% block nav %}
-<div class="inner">
-  <h3 class="masthead-brand">Package Tracker</h3>
-  <nav class="nav nav-masthead justify-content-left">
-    <a class="nav-link active" href="#">Home</a>
-  </nav>
-</div>
-{% endblock %}
 
 {% block content %}
-<div style="width:500px;">
-    <form method="post">
-        {% csrf_token %}
-         {% bootstrap_form form %}
-        <input type="submit" class='btn tbn-lg btn-default' value="Login">
-    </form>
+<div class="row">
+    <div class="col-sm-12 login">
+        <form method="post">
+            {% csrf_token %}
+             {% bootstrap_form form %}
+            <input type="submit" class='btn btn-lg btn-success' value="Login">
+        </form>
+    </div>
 </div>
 {% endblock %}

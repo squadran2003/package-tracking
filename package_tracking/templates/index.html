@@ -1,19 +1,12 @@
+
 {% extends 'layout.html' %}
-{% block nav %}
-<div class="inner">
-  <h3 class="masthead-brand">Package Tracker</h3>
-  <nav class="nav nav-masthead justify-content-left">
-    <a class="nav-link active" href="#">Home</a>
-    <a class="nav-link" href="#">Login</a>
-  </nav>
-</div>
-{% endblock %}
+{% block title %}Home {% endblock %}
 {% block content %}
-    <main role="main" class="inner cover">
-      <h1 class="cover-heading">Track you packages in real time</h1>
-      <p class="lead">App that lets a user know at what stage in the delivery process their package is</p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary">Sign up</a>
-      </p>
-    </main>
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <h1 class="mt-5">Package Tracker</h1>
+    <p class="lead">Keep track of your packages!</p>
+    
+  </div>
+</div>
 {% endblock %}
